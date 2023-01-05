@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+vfx_ArielFrigoli/Library
+vfx_ArielFrigoli/Logs
+vfx_ArielFrigoli/Temp
+vfx_ArielFrigoli/UserSettings
