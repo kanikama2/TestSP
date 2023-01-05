@@ -19377,7 +19377,7 @@ GameObject:
   - component: {fileID: 8066391408687497529}
   - component: {fileID: 8066391408687497532}
   m_Layer: 0
-  m_Name: VFX_Ligfht_Base
+  m_Name: VFX_Ligfht_Bases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
