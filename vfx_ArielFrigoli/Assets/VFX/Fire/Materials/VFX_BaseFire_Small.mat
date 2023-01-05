@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VFX_BaseFire_Match
+  m_Name: VFX_BaseFire_Small
   m_Shader: {fileID: -6465566751694194690, guid: 3f18cb57eddecc249abad679e54965a0,
     type: 3}
   m_ValidKeywords: []
@@ -105,17 +105,15 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intensity: 0.16
+    - _Intensity: 0.17
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Red_0_Green_1: 0
-    - _Result_0_Blue_1: 0
-    - _Scale_01: 0.1
-    - _Scale_02: 0.36
+    - _Scale_01: 0.8
+    - _Scale_02: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -126,9 +124,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 3.4415908, g: 0, b: 0, a: 1}
-    - _Direction_01: {r: 0.15, g: -0.05, b: 0, a: 0}
-    - _Direction_02: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1.4955604, g: 0, b: 0, a: 1}
+    - _Direction_01: {r: 0, g: -0.5, b: 0, a: 0}
+    - _Direction_02: {r: 0.3, g: -0.3, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Mask_Size: {r: 0.93, g: 0.36, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VFX_BaseFire_Match
-  m_Shader: {fileID: -6465566751694194690, guid: 3f18cb57eddecc249abad679e54965a0,
+  m_Name: VFX_BaseFire_Match_op
+  m_Shader: {fileID: -6465566751694194690, guid: a8a15a2147c264e4cbfebf06e8c83f68,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,7 +26,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Mask:
-        m_Texture: {fileID: 2800000, guid: 6134e04e4d9d47440befb50e0363e159, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7f9f2e47c04636f41996315f70df3e43, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -73,6 +73,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c10876195c2f4c53b0254ade8f837934_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6383697cbce2a3e49abe81c19a05de7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -105,7 +109,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intensity: 0.16
+    - _Intensity: 0.26
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -114,24 +118,28 @@ Material:
     - _ReceiveShadows: 1
     - _Red_0_Green_1: 0
     - _Result_0_Blue_1: 0
-    - _Scale_01: 0.1
+    - _Scale_01: 0.15
     - _Scale_02: 0.36
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Step: 0.18
+    - _Step: 0.05
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 3.4415908, g: 0, b: 0, a: 1}
-    - _Direction_01: {r: 0.15, g: -0.05, b: 0, a: 0}
+    - _Color: {r: 0.93247277, g: 0.9279681, b: 0.9279681, a: 1}
+    - _Direction_01: {r: 0, g: 0, b: 0, a: 0}
     - _Direction_02: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Mask_Size: {r: 0.93, g: 0.36, b: 0, a: 0}
+    - _Position: {r: -0.22, g: 0, b: 0, a: 0}
+    - _Scale: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector4: {r: -3.38, g: -0.1, b: -3.2, a: -2.54}
   m_BuildTextureStacks: []
 --- !u!114 &8388959190148284922
 MonoBehaviour:
